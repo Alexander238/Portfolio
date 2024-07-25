@@ -6,7 +6,7 @@ export class ElementBuilder {
                     <span>Alex</span>ander
                 </a>
                 <nav class="navbar">
-                    <a href="../HTML/index.html">Portfolio</a>
+                    <a href="../index.html">Portfolio</a>
                     <a href="../HTML/projects.html">Projekte</a>
                     <a href="../HTML/waysOfWorking.html">Arbeitsweise</a>
                 </nav>
