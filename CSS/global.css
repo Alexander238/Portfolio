@@ -1,0 +1,24 @@
+:root {
+    /* Color palette */
+    --color-background-primary: #202a30;
+    --color-background-secondary: white;
+    --color-primary: #1e82ad;
+    --color-secondary: #738b91;
+    --color-tertiary: #d3d8d4;
+
+    --color-text: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, "Arial Black", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    padding: 0 12% 12% 12%;
+    overflow-x: hidden;
+}

@@ -1,0 +1,63 @@
+h1 {
+    color: black;
+    font-size: 2em !important;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.main-content {
+    width: 100% !important;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    margin-bottom: 30px;
+
+    border-bottom: 1px solid black;
+}
+
+#github-icon {
+    font-size: 2.2em;
+    padding: 8px;
+}
+
+.icon-span {
+    color: initial;
+}
+
+.icon-span:hover {
+    color: var(--color-primary);
+}
+
+#description {
+    display: flex;
+    margin: 50px 0;
+}
+
+.subsection {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-bottom: 28px;
+
+    gap: 10px;
+}
+
+.subsection div {
+    border: 1px solid grey;
+    border-radius: 3px;
+
+    padding: 12px 12px 36px 12px;
+}
