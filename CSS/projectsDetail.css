@@ -61,3 +61,98 @@ h1 {
 
     padding: 12px 12px 36px 12px;
 }
+
+.subsection ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px
+}
+
+.subsection li {
+    border: 1px solid black;
+    background-color: #e0e0e0;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 50px;
+}
+
+.grid-element, .video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.grid-element img:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.grid-element img, .video-wrapper video {
+    width: 100%;
+}
+
+.video-wrapper {
+    margin-top: 60px;
+}
+
+.enlarged {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.enlarged img {
+    max-width: 90%;
+    max-height: 80%;
+    transition: transform 0.3s ease;
+}
+
+.enlarged.show {
+    opacity: 1;
+}
+
+.show-less {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.show-less:hover {
+    color: var(--color-primary);
+}
+
+h3 {
+    color: black !important;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+    margin-top: 10px;
+}

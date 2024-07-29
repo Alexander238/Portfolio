@@ -90,7 +90,7 @@ span {
 
     padding: 5px 10px;
     border: 1px solid black;
-    border-radius: 6px;
+    border-radius: 10px;
     transition: all 0.2s ease-in;
 }
 
@@ -104,6 +104,7 @@ span {
 .main {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     background-color: var(--color-background-secondary);
 
     padding: 160px 10%;
@@ -130,7 +131,7 @@ span {
 }
 
 .main-img img {
-    width: 500px;
+    width: 450px;
 
     border-radius: 10px;
 }

@@ -8,7 +8,7 @@ export class ElementBuilder {
                 <nav class="navbar">
                     <a href="../HTML/index.html">Portfolio</a>
                     <a href="../HTML/projects.html">Projekte</a>
-                    <a href="../HTML/waysOfWorking.html">Arbeitsweise</a>
+                    <a href="../HTML/way-of-working.html">Arbeitsweise</a>
                 </nav>
                 <a href="#" class="contact">Kontakt</a>
             </header>`;
