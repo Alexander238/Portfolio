@@ -58,6 +58,10 @@ h1 {
     margin: 0;
 }
 
+.subsection h2 {
+    font-size: 1.2em;
+}
+
 .subsection-content {
     display: flex;
     flex-direction: column;
