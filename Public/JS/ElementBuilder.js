@@ -59,7 +59,7 @@ export class ElementBuilder {
             }
             //console.log("Scroll position: ", scrollPosition);
             //console.log("Page height: ", pageHeight);
-            parallax.style.transform = `translateY(${-scrollPosition * 0.05}px)`;
+            parallax.style.transform = `translateY(${-scrollPosition * 0.03}px)`;
         });
     }
 
