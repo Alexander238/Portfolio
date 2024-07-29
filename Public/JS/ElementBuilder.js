@@ -3,7 +3,7 @@ export class ElementBuilder {
         const headerHTML = `
             <header class="header">
                 <a href="#" class="logo">
-                    <span>Alex</span>ander
+                    <span class="name-span">Alex</span>ander
                 </a>
                 <nav class="navbar">
                     <a href="../HTML/index.html">Portfolio</a>
