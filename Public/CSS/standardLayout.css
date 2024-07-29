@@ -52,7 +52,7 @@ span {
     color: var(--color-primary);
 }
 
-.logo, .contact, .navbar a, .contact {
+.logo, .navbar a, .contact {
     position: relative;
     align-content: center;
 
@@ -71,6 +71,7 @@ span {
 
 .logo {
     text-align: center;
+    position: absolute;
 
     padding: 6px 10px 5px 10px;
     font-size: 1.9rem;
@@ -86,22 +87,6 @@ span {
 .navbar a:hover, .navbar .active {
     color: var(--color-primary);
     background-color: white;
-}
-
-.contact {
-    background-color: white;
-    color: #414141;
-
-    padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    transition: all 0.2s ease-in;
-}
-
-.contact:hover {
-    background-color: var(--color-primary);
-    color: white;
-    box-shadow: 0 0 8px var(--color-primary);
 }
 
 /* MAIN SECTION */
