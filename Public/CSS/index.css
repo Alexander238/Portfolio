@@ -11,8 +11,11 @@
 
     width: 100%;
     min-height: 50vh;
-    gap: 1em;
     z-index: 10;
+}
+
+.skills h1 {
+    margin-bottom: 60px;
 }
 
 .skills-content-wrap {
@@ -31,13 +34,19 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 5em;
+    gap: 2em;
 
     width: 100%;
     min-height: 200px;
-    padding: 15px;
+    padding: 0 15px 100px 15px;
+}
 
-    border-radius: 10px;
+.skills-content h2 {
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+
+    padding: 20px;
 }
 
 #profound {

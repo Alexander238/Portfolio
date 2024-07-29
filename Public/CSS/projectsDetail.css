@@ -41,7 +41,6 @@ h1 {
 }
 
 #description {
-    display: flex;
     margin: 50px 0;
 }
 
@@ -55,11 +54,20 @@ h1 {
     gap: 10px;
 }
 
-.subsection div {
+.subsection p {
+    margin: 0;
+}
+
+.subsection-content {
+    display: flex;
+    flex-direction: column;
+
     border: 1px solid grey;
     border-radius: 3px;
 
-    padding: 12px 12px 36px 12px;
+    gap: 24px;
+
+    padding: 12px 12px 36px 12px;;
 }
 
 .subsection ul {
@@ -155,4 +163,10 @@ h3 {
     letter-spacing: 3px;
 
     margin-top: 10px;
+}
+
+.bullet-point {
+    display: flex;
+    align-items: center;
+    color: black !important;
 }
