@@ -10,7 +10,7 @@ export class ElementBuilder {
                     <a href="../HTML/projects.html">Projekte</a>
                     <a href="../HTML/way-of-working.html">Arbeitsweise</a>
                 </nav>
-                <a href="#" class="contact">Kontakt</a>
+                <a href="#" class="contact"></a>
             </header>`;
 
         $('body').prepend(headerHTML);

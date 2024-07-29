@@ -10,7 +10,7 @@ p {
     padding-bottom: 30px;
 }
 
-span {
+.\.bp-span {
     font-weight: bolder;
-    color: black;
+    color: black !important;
 }
