@@ -24,9 +24,7 @@
 }
 
 .skills h1 {
-    font-size: 32px;
-    line-height: 1.2;
-    letter-spacing: 3px;
+    font-size: var(--font-size-xlarge);
 }
 
 .skills-content {
@@ -42,10 +40,7 @@
 }
 
 .skills-content h2 {
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 3px;
-
+    font-size: var(--font-size-large);
     padding: 20px;
 }
 
@@ -83,3 +78,10 @@
     height: 60px;
 }
 
+h1 {
+    font-size: var(--font-size-xxlarge) !important;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.58) !important;
+}
