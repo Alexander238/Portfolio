@@ -2,7 +2,7 @@
 
 ## GitHub-Links
 
-Falls meine Website unter https://portfolio-e5fef.web.app nicht erreichbar sein sollte, hier die dort verlinkten GitHub-Repositories:
+Falls meine Website unter https://alexander-petersen-portfolio.web.app/ nicht erreichbar sein sollte, hier die dort verlinkten GitHub-Repositories:
 - https://github.com/Alexander238/AI_FlappyBird
 - https://github.com/Alexander238/CurveFever_copy
 - https://github.com/Alexander238/POIJ_Copy
